@@ -1,0 +1,118 @@
+* {
+    margin: 0 auto;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+    background: url(../img/123.jpg);
+}
+
+.heroes_list {
+    width: 98%;
+    height: auto;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroes_list-flex {
+    display: flex;
+}
+
+.planets h2 {
+    color: red;
+}
+
+.hero_item {
+    height: 100%;
+    width: 150px;
+    margin: 2px;
+    border: 1px solid #f13016;
+    border-radius: 5px;
+
+}
+
+
+.hero_item h2 {
+    height: 80px;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(192, 65, 209);
+}
+
+.hero_item h2 span {
+    text-align: center;
+    color: #42136e;
+}
+
+.hero_item h3 {
+    height: 60px;
+    color: #ffcc33;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero_item h3 span {
+    text-align: center;
+    color: #9370db;
+}
+
+.hero_item h4 {
+    height: 60px;
+    color: #33cc33;
+    font-size: 18px;
+    text-align: center;
+}
+
+.hero_item h4 span {
+    text-align: center;
+    color: #ff1493;
+}
+
+
+
+.hero_btn,
+.next,
+.prev {
+    width: 100px;
+    height: 50px;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #89bb16;
+    color: rgb(255, 17, 0);
+}
+
+.hero_btn:hover,
+.btn_planets:hover {
+    background-color: cadetblue;
+}
+
+.planets {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.planets_list {
+    color: aqua;
+}
+
+.arrows {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next,
+.prev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
